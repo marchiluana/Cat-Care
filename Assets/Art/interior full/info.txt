@@ -1,0 +1,33 @@
+GRID SIZE 16x16
+Door Cell Size: 48x32
+Yorkie Cell Size: 18x18
+Cat Cell Size: 18x18
+RetroTV Cell Size: 16x16
+TV Cell Size: 32x32
+Aquarium Cell Size: 16x16
+Saltwater Tank Cell Size: 32x16
+Fireplace Modern Cell Size: 32x32
+
+
+Door Open FR: 300
+Budgie Jump FR: 120
+Fish Swim FR: 400
+Yorkie Sit: 100;100;900
+Yorkie/Cat Walk FR: 150
+Yorkie Eat FR: 200
+Yorkie Drink FR: 200
+Yorkie/Cat Sleep: 300;500;300;700
+Hamster Cage FR: 100
+RetroTV Static FR: 100
+RetroTV Weather FR: 300; 300; 300; 900
+RetroTV Sports FR: 300;300;300;900
+RetroTV Drama FR: 400;400;400;900
+RetroTV Horror FR: 600;600;600;900
+TV weather Cloudy/Rain/Sun/Thunder: 450;450;900;1000
+TV Weather Snow: 900;900;900;1000
+TV Horror: 450;450;450;900
+TV Sports: 300;300;300;300;900
+TV Drama:900
+TV Cooking:300;300;[...]100
+Fireplace FR: 100
+Candles FR: 150
