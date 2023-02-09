@@ -18,15 +18,16 @@ public class Cat : MonoBehaviour
     
 
     void Start()
-    {  
+    {
 
         //setar última vez entrada
-        PlayerPrefs.SetString("then", "19/11/2022 20:38:00");
+        PlayerPrefs.SetString("then", "01/12/2022 23:04:00");
         updateStatus();
     }
 
     void Update()
     {
+        //cat happiness
         if (Input.GetMouseButtonUp(0))
         {
             Vector2 v = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
@@ -48,6 +49,7 @@ public class Cat : MonoBehaviour
 
     void updateStatus()
     {
+        //update status after player join the game
         if (!PlayerPrefs.HasKey("_hunger"))
         {
             _hunger = 100;

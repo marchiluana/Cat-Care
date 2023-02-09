@@ -15,10 +15,6 @@ public class GameManager : MonoBehaviour
 
     public GameObject displayTime;
     // public GameObject displayDate;
-    void Start()
-    {
-
-    }
     void Update()
     {
         DateTime now = DateTime.Now;

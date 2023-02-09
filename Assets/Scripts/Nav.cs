@@ -14,7 +14,6 @@ public class Nav : MonoBehaviour
 
     void Start()
     {
-        
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
